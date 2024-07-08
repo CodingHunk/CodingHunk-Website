@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Knewave);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,600,800);
+
+
+body {
+    background-color: #000000;
+    
+}
+
+/* Navigation CSS */
+.logo {
+    border: solid 2px white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease, left 0.4s ease;
+    z-index: 10;
+
+}
+.hunk{
+    color: #FF8A08
+}
+.logo:hover {
+    border-color:#FF8A08;
+    transform: rotate(-8deg) scale(1.15);
+    transition: 0.3s cubic-bezier(0.3, 0.2, 0, 2);
+}
+
+.nav-link {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #FF8A08;
+    border-bottom: 3px solid ;
+}
+
+/* Navivation C */
